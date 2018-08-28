@@ -29,4 +29,5 @@ subroutine INPUT_THC
       
       close(11)
 
+Return
 end

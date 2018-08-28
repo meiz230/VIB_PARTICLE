@@ -8,7 +8,15 @@
 
       USE GLOBAL
       
+      write(*,*) 
+      write(*,*) 'VERSION : 20180828'
+      write(*,*) 
+      call WELCOME
+      write(*,*) 
+      
       call INPUT_THC
+      
+      
       write(*,*) 7,CT(7),TPERIOD(7)
       
       stop
